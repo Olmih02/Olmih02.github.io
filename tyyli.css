@@ -29,6 +29,10 @@ nav a:hover {
 
 
 /*kuvien kanssa pelleilyä*/
+#etusivu {
+    background-image: url(kuvat/Sivustolle.jpg);
+    background-size: contain;
+}
 
 
     
