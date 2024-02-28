@@ -7,7 +7,15 @@ body {
     padding-top: 20px;}
 
     /*Navigoinnin ulkoasu*/
-    nav a
+    nav a {
+    background: #88b8ae;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    display: inline-flexbox;
+
+    }
+    
     
         
 
