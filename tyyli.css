@@ -3,7 +3,8 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;}
 
-    header {text-align: center;}
+    header {text-align: center;
+    padding-top: 20px;}
     
         
 
