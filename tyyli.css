@@ -33,6 +33,9 @@ nav a:hover {
     background-image: url(kuvat/Tunnille2.jpg);
 }
 
+#iframe {
+    width: max-content;
+}
 
 
 footer{
