@@ -79,18 +79,12 @@ footer{
 
 /*etusivunkuva*/    
 
-figure {
-    margin: auto;
-    margin-bottom: 0px;
-    max-width: 400px;
-}
-
-.etusivusivupikkukuva {
-    max-width: 400px;
-    vertical-align: middle;
-    width: 100%;
-}
-
+.container img {
+    max-width: 100%; /* Make the image responsive and fit within the container */
+    max-height: 100%; /* Ensure the image does not exceed the container height */
+    display: block; /* Ensure the image behaves like a block element */
+    margin: auto; /* Center the image horizontally within the container */
+  }
 
 
 
