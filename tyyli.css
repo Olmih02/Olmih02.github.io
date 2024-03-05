@@ -6,6 +6,26 @@ body {
 background-size: cover;}
 
 
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(kuvat/Etusivulle.jpg), url(kuvat/Etusivulle.jpg);
+    background-position: left, right; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    /* Your container styles */
+    /* For example: */
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #88b8ae; /* Background color for the content area */
+  }
+
+
 
 
   
