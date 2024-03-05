@@ -15,7 +15,8 @@ body, html {
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     height: 100%;
-    background: url(kuvat/Etusivulle.jpg) left/cover no-repeat, url(kuvat/Etusivulle.jpg) right/cover no-repeat; /* Background images on sides */
+    background-color: #88b8ae;
+    background-image: url(kuvat/Etusivulle.jpg) left/cover no-repeat, url(kuvat/Etusivulle.jpg) right/cover no-repeat; /* Background images on sides */
   }
   
   .content {
