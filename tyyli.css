@@ -12,8 +12,8 @@ body {
   
   .container {
     width: 100%;
-    height: 100vh; /* Adjust height as needed */
-    background-image: url('center-background.jpg'); /* Image for the center background */
+    height: 100vh; 
+    background-color: #88b8ae; 
     background-position: center;
     background-size: cover;
     position: relative;
