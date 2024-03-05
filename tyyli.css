@@ -71,6 +71,15 @@ footer{
 
 
 
+.tunnitsisältö {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #88b8ae;
+}
+
+
+
 /*swayn määritys*/
 #sway {
     width: 100%;
