@@ -4,6 +4,27 @@ body {
     font-size: 20px;
  background-image: url(kuvat/Etusivulle.jpg);
 background-size: cover;}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100%;
+    background: url(kuvat/Etusivulle.jpg) left/cover no-repeat, url(kuvat/Etusivulle.jpg) right/cover no-repeat; /* Background images on sides */
+  }
+  
+  .content {
+    max-width: 800px; /* Adjust as needed */
+    padding: 20px;
+    background-color: #88b8ae; /* Content background color */
+  }
+  
  
 
     header {text-align: center;
