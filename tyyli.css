@@ -88,14 +88,17 @@ footer{
 
 
 .toimintakehote {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
     border: medium solid #000000;
     border-radius: 10px;
     background-color: #88b8ae;
     color: #000000;
     text-decoration: none;
     text-align: center;
-
 }
+
 
 
 
