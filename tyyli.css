@@ -85,7 +85,8 @@ footer{
 
 
 .toimintakehote {
-    position: absolute;
+   font-size: large;
+    position: absolute; 
     top: 20px; /* Adjust as needed */
     right: 20px; /* Adjust as needed */
     border: medium solid #000000;
@@ -95,7 +96,6 @@ footer{
     text-decoration: none;
     text-align: center;
 }
-
 
 
 
