@@ -4,6 +4,43 @@ body {
     font-size: 20px;
  background-image: url(kuvat/Etusivulle.jpg);
 background-size: cover;}
+
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh; /* Adjust height as needed */
+    background-image: url('center-background.jpg'); /* Image for the center background */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .container::before,
+  .container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%; /* Width of side background images */
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container::before {
+    left: 0;
+    background-image: url(kuvat/Etusivulle.jpg); /* Image for the left background */
+  }
+  
+  .container::after {
+    right: 0;
+    background-image: url(kuvat/Etusivulle.jpg); /* Image for the right background */
+  }
+  
  
 
     header {text-align: center;
