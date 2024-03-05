@@ -1,29 +1,29 @@
-body {
-    background-color: #88b8ae;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    background-size: cover;}
-
-body, html {
+body, html, tunnille {
     margin: 0;
     padding: 0;
-    height: 100%;
+    background-image: url(kuvat/Etusivulle.jpg), url(kuvat/Etusivulle.jpg);
+    background-position: left, right; /* Position images on the left and right sides */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repetition */
   }
   
   .container {
-    display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    /* Your container styles */
+    /* For example: */
+    width: 90%;
     height: 100%;
-    background-color: #88b8ae;
-    background-image: url(kuvat/Etusivulle.jpg) left/cover no-repeat, url(kuvat/Etusivulle.jpg) right/cover no-repeat; /* Background images on sides */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background-color: #88b8ae; /* Background color for the content area */
   }
   
+  
   .content {
-    max-width: 800px; /* Adjust as needed */
+      max-width: 800px; /* Adjust as needed */
     padding: 20px;
-    background-color: #88b8ae; /* Content background color */
+    ;
   }
+  
   
  
 
