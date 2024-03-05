@@ -13,7 +13,16 @@ body {
     background-repeat: no-repeat;
   }
   
+  
+  .toimintakehote { grid-area: g1;} 
+
+  #etusivusisältö {
+    grid-template-areas: "g1";
+  }
+  
+  
   .etusivusisältö {
+   display: grid;
     width: 80%;
     height: 90vh;
     margin: 0 auto;
