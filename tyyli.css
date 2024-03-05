@@ -87,8 +87,8 @@ footer{
 .toimintakehote {
    font-size: large;
     position: absolute; 
-    top: 20px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
+    top: 20px;  
+    right: 20px; 
     border: medium solid #000000;
     border-radius: 10px;
     background-color: #88b8ae;
