@@ -13,7 +13,7 @@ body {
     background-repeat: no-repeat;
   }
   
-  .container {
+  .etusivusisältö {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
@@ -93,7 +93,7 @@ footer{
     color: #000000;
     text-decoration: none;
     text-align: center;
-    
+
 }
 
 
@@ -113,7 +113,7 @@ footer{
 
 /*etusivunkuva*/    
 
-.container img {
+.etusivusisältö img {
     max-width: 100%; /* Make the image responsive and fit within the container */
     max-height: 100%; /* Ensure the image does not exceed the container height */
     display: block; /* Ensure the image behaves like a block element */
