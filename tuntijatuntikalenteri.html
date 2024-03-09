@@ -18,7 +18,34 @@
 </header>
 
 <div class="tunnitsisältö">
-    
+        <h2>Varaa Tunti</h2>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Sinun Nimesi:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Sähköpostiosoitteesi:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="date">Päivämäärä:</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="form-group">
+            <label for="time">Aika:</label>
+            <select id="time" name="time" required>
+              <option value="">valitse Aika</option>
+              <option value="morning">Aamu</option>
+              <option value="afternoon">Iltapäivä</option>
+              <option value="evening">Ilta</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Book Lesson">
+          </div>
+        </form>
+      </div>  
 </div>
 <footer>
     <a href="https://www.youtube.com/@zibinhanninen1956"><i class="fa fa-youtube"></i></a>
