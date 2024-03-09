@@ -87,6 +87,13 @@ body {
     margin-bottom: 5px;
   }
 
+  .some {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #88b8ae;
+  }
+
 
 
     header {text-align: center;
