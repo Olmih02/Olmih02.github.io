@@ -71,7 +71,7 @@ body {
 }
 
 .yhteystiedot h2 {
-    color: #000000; 
+    color: #000000; /* Change heading color to white */
   }
   
   .yhteystiedot p {
@@ -121,8 +121,6 @@ footer{
     justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 10px;
-    position: sticky;
-    bottom: 0;
 }
 
 .fa {
@@ -176,7 +174,6 @@ footer{
     background-color: #88b8ae;
     border: 2px solid #000000;
     border-width: medium;
-    text-decoration: none;
 }
 
 
