@@ -15,7 +15,6 @@ body {
   
   .etusivusisältö {
     width: 80%;
-    height: 100vh;
     margin: 0 auto;
     padding: 20px;
     background-color: #88b8ae; 
@@ -165,7 +164,7 @@ footer{
 
 .etusivusisältö img {
     max-width: 100%; /* Make the image responsive and fit within the container */
-    max-height: 100vh; /* Ensure the image does not exceed the container height */
+    max-height: 100%; /* Ensure the image does not exceed the container height */
     display: block; /* Ensure the image behaves like a block element */
     margin: auto; /* Center the image horizontally within the container */
   }
