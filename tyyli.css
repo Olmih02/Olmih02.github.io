@@ -154,14 +154,26 @@ footer{
 
 
 
-.YHoleyhteydess {
-    text-align: center;
-}
+
 
 .Copyright {
     text-align: center;
-/* Common footer styles */
+    font-size: 20px;
+    color: #000000;
+    background-color: #88b8ae;
+    border: 2px solid #000000;
+    border-width: medium;
 
+}
+
+
+.Sähköposti {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    background-color: #88b8ae;
+    border: 2px solid #000000;
+    border-width: medium;
 }
 
 
