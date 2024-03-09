@@ -28,6 +28,40 @@ body {
     background-color: #88b8ae;
 }
 
+
+.form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="date"],
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .form-group select {
+    height: 40px;
+  }
+  .form-group input[type="submit"] {
+    background-color: #88b8ae;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
 .yhteystiedot {
     width: 80%;
     height: 100vh;
