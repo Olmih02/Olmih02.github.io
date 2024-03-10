@@ -230,6 +230,11 @@ footer{
       background-color: #88b8ae;
       font-size: 15px;
   }
+
+  textarea {
+    width: calc(100% - 20px); /* Adjust width for smaller screens */
+    /* You can adjust the subtracted value to fit your layout */
+  }
         
         
 
