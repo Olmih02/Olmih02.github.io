@@ -87,6 +87,17 @@ body {
     margin-bottom: 5px;
   }
 
+
+  .expandable-textarea {
+    width: 100%;
+    resize: none;
+    overflow-y: hidden; /* Hide overflow when not expanded */
+    transition: height 0.3s; /* Smooth transition when expanding */
+  }
+  .expanded {
+    height: 200px; /* Adjust height as needed */
+  }  
+
   
 
 
