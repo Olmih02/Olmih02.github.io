@@ -237,7 +237,8 @@ footer{
 }
 
 /*määrityksiä tablettikoolle*/
-@media screen and (min-width: 600px) { footer{
+@media screen and (max-width: 1024px) {
+   footer{
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   color: #000000;
