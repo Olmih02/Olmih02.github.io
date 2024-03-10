@@ -124,7 +124,7 @@ nav a:hover {
     opacity: 0.6;
 }
 
-
+/*footerin määrittämistä*/
 footer{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -149,6 +149,26 @@ footer{
     opacity: 0.6;
 }
 
+#Copyright {
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  background-color: #88b8ae;
+  border: 2px solid #000000;
+  border-width: medium;
+
+}
+
+
+#Sähköposti {
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  background-color: #88b8ae;
+  border: 2px solid #000000;
+  border-width: medium;
+}
+
 
 .toimintakehote {
   font-size: 40px;
@@ -168,25 +188,7 @@ footer{
 
 
 
-#Copyright {
-    text-align: center;
-    font-size: 20px;
-    color: #000000;
-    background-color: #88b8ae;
-    border: 2px solid #000000;
-    border-width: medium;
 
-}
-
-
-#Sähköposti {
-    text-align: center;
-    font-size: 20px;
-    color: #000000;
-    background-color: #88b8ae;
-    border: 2px solid #000000;
-    border-width: medium;
-}
 
 
 
